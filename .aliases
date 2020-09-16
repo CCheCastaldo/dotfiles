@@ -15,8 +15,9 @@
 
 alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
 #alias tw='open -a TextWrangler'            # tw:           Opens file in text wrangler
+alias te='open -a textedit'                 # te:           Opens file in textedit
 alias bb='open -a BBEdit'                   # bb:           Opens file in BBEdit
-alias ll='ls -FGlAhp --color=auto'          # ll:           Preferred 'ls' implementation
+alias ll='ls -FGlAhp'                       # ll:           Preferred 'ls' implementation
 alias f='open -a Finder ./'                 # f:            Opens current directory in MacOS Finder
 cd() { builtin cd "$@"; ll; }               # cd:           Always list directory contents upon 'cd'
 alias which='type -all'                     # which:        Find executables
@@ -61,20 +62,7 @@ alias check='source ~/.gitcheck'
 alias gpull='source ~/.gitpullall'
 
 #login to seawulf
-alias seawulf='ssh -X cyoungflesh@login.seawulf.stonybrook.edu'
-
-#login to sahara
-alias sahara='ssh -p 2217 casey@sahara.ecoevo.stonybrook.edu'
-
-#login to pleiades
-alias pleiades='ssh cyoungfl@sfe3.nas.nasa.gov'
-
-alias xanadu='ssh cyoungflesh@xanadu-submit-ext.cam.uchc.edu'
-alias xanadust='ssh astillman@xanadu-submit-ext.cam.uchc.edu'
-alias xanadusp='ssh aspence@xanadu-submit-ext.cam.uchc.edu'
-alias xanadu2='ssh cyoungflesh@old-submit-ext.cam.uchc.edu'
-alias hoffman='ssh cyoungfl@hoffman2.idre.ucla.edu'
-
+alias seawulf='ssh -X cchecastaldo@login.seawulf.stonybrook.edu'
 
 #sort by date modified
 #ls -ltr
@@ -116,4 +104,4 @@ alias showBlocked='sudo ipfw list'                                     # showBlo
         #echo -e "\n${RED}DNS Configuration:$NC " ; scutil --dns
         echo
     }
-    
+
