@@ -20,17 +20,20 @@
 # * ~/.functions can be used to set functions (similar to aliases but can take arguments)
 
 
-source ~/.path
+# source ~/.path
 source ~/.bash_prompt
 source ~/.exports
 source ~/.aliases
 
-#silence deprecation warning about bash on Catalina
+# silence deprecation warning about bash on Catalina
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 
-#prompt for SWC bash/git workshops
-#PS1="____________________________________________"; PS1+="\[${bold}\]\n"; PS1+="\h:"; PS1+="\w "; PS1+="\u$ "
+# prompt for SWC bash/git workshops
+# PS1="____________________________________________"; PS1+="\[${bold}\]\n"; PS1+="\h:"; PS1+="\w "; PS1+="\u$ "
 
-#to work with RVM
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# to work with RVM
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export EDITOR=nano
+export VISUAL=nano
