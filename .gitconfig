@@ -4,7 +4,7 @@
 	helper = osxkeychain
 	
 [core]
-	editor = vim
+	editor = nano
 	# Use custom `.gitignore`
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
@@ -79,5 +79,5 @@
     insteadOf = gh:
     
 [user]
-	name = Casey Youngflesh
-	email = caseyyoungflesh@gmail.com
+	name = Christian Che-Castaldo
+	email = chrischecastaldo@icloud.com
