@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/local/bin/bash
+
 
 ## gitcheck:
 ##   Check all git repositories in subdirectories, and list the ones with changes

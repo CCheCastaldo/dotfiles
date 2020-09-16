@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/local/bin/bash
 
 ## gitpullall
 ## pulls from remote all repos that are behind github
