@@ -81,3 +81,6 @@
 [user]
 	name = Christian Che-Castaldo
 	email = chrischecastaldo@icloud.com
+
+[pull]
+	ff = only
