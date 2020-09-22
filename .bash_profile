@@ -1,14 +1,14 @@
-#  ---------------------------------------------------------------------------
-#  Description:  Bash profile - loads other dotfiles
-#  Subset mainly from: 
-#  https://natelandau.com/my-mac-osx-bash_profile/
-#  and
-#  https://github.com/mathiasbynens/dotfiles
-#  ---------------------------------------------------------------------------
+#---------------------------------------------------------------------------
+# Description:  Bash profile - loads other dotfiles
+# Subset mainly from: 
+# https://natelandau.com/my-mac-osx-bash_profile/
+# and
+# https://github.com/mathiasbynens/dotfiles
+# ---------------------------------------------------------------------------
 
-#  ---------------------------------------
-#  Load the shell dotfiles
-#  -----------------------------------------
+#---------------------------------------
+# Load the shell dotfiles
+#-----------------------------------------
 
 # * ~/.path can be used to extend `$PATH` (not in repo)
 # * ~/.bash_prompt can be used to change prompt
@@ -26,3 +26,5 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export EDITOR=nano
 export VISUAL=nano
+
+source .pass.bash-completion
